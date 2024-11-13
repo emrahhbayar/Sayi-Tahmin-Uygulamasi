@@ -4,11 +4,9 @@ const inputContent = document.querySelector("#input");
 const col = document.querySelector("#col");
 const div = document.querySelector("#result");
 const ul = document.querySelector(".list-group");
-
 let number;
 let sayac = 0;
 runEvents();
-
 function runEvents() {
     createButton.addEventListener("click", toCreate);
     guessButton.addEventListener("click", guessNumber);
